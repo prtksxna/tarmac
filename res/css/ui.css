@@ -1,0 +1,13 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+div#tarmac-workspace{
+    overflow-y: scroll;
+}
+
+div#tarmac-workspace .container_16{
+    background: #fff url('../lib/960grid.png') left top;
+    min-height: 500px;
+}
