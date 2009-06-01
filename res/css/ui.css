@@ -8,6 +8,48 @@ div#tarmac-workspace{
 }
 
 div#tarmac-workspace .container_16{
-    background: #fff url('../lib/960grid.png') left top;
     min-height: 500px;
+}
+
+div#tarmac-workspace .container_16 div{
+    background: #e3e3e3;
+}
+
+.show_grid{
+    background: #fff url('../lib/16_col.gif') left top;
+}
+
+span#tarmac-toolbar-tabs a{
+    display: block;
+    padding: 1px 5px;
+    background: #fff;
+    text-decoration: none;
+    color: #333;
+    float: left;
+    border-right: 1px solid #ddd;
+}
+
+div#tarmac-tools{
+    background: #eee;
+    min-height: 100px;
+    position: fixed;
+    width: 100%;
+    bottom: 0px;
+}
+
+div#tarmac-settings{
+    overflow-y: scroll;
+    height: 80px;
+}
+
+div#tarmac-toolbar{
+    background: #eee;
+    border-top: #ddd 1px solid;
+    border-bottom: #ddd 1px solid;
+}
+
+div#tarmac-tools button{
+    background: none;
+    width:20px;
+    border: none;
 }

@@ -1,5 +1,8 @@
 <html>
   <head>
+
+    <title>Tarmac</title>
+
     <!-- JavaScript, files and libraries -->
     <script src="res/lib/prototype.js"></script>
     <script src="res/lib/scriptaculous/scriptaculous.js"></script>
@@ -13,14 +16,30 @@
   </head>
   <body>
     <div id="tarmac-workspace">
-      <div class="container_16">
-	<h1>hello</h1>
+      <div class="container_16 show_grid">
       </div>
     </div>
 
     <div id="tarmac-tools">
       <div id="tarmac-toolbar">
-	<button id="tarmac-add-element"></button>
+	<span id="tarmac-toolbar-tabs">
+	  <a href="#" id="tarmac-toolbar-tab-element">Element</a>
+	  <a href="#" id="tarmac-toolbar-tab-css">CSS</a>
+	  <a href="#" id="tarmac-toolbar-tab-content">Content</a>
+	  <a href="#" id="tarmac-toolbar-tab-eye-candy">Eye Candy</a>
+	</span>
+	<button id="tarmac-add-element">
+	  <img src="res/images/add.png" alt="Add"/>
+	</button>
+	<button id="tarmac-remove-element">
+	  <img src="res/images/cancel.png" alt="Remove"/>
+	</button>
+	<button id="tarmac-toggle-grid">
+	  <img src="res/images/shading.png" alt="Toggle Grid"/>
+	</button>
+      </div>
+      <div id="tarmac-settings">
+	helllo
       </div>
     </div>
   </body>
